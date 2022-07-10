@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/gallery"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_gallery_foreground"
+        android:title="@string/menu_gallery"/>
+    <item
+        android:id="@+id/music"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_music_foreground"
+        android:title="@string/menu_music"/>
+    <item
+        android:id="@+id/settings2"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_settings_foreground"
+        android:title="@string/menu_settings"/>
+    <item
+        android:id="@+id/notes"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_notes_foreground"
+        android:title="@string/menu_notes"/>
+    <item
+        android:id="@+id/message3"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/menu_message"/>
+</menu>

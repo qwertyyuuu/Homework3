@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="@color/purple_200"
+    android:background="?android:selectableItemBackground"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    app:cardCornerRadius="12dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Equals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16sp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name"
+        android:layout_marginStart="16sp"
+        android:layout_marginEnd="16dp"
+        tools:text="Eminem" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
